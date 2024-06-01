@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://b3cpiqjxhxv56"]
+
+[ext_resource type="Script" path="res://Scenes/LoginSteam.gd" id="1_anx13"]
+
+[node name="LoginSteam" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_anx13")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_right = 298.0
+offset_bottom = 171.0
+text = "Login"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
