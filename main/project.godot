@@ -22,9 +22,9 @@ Display=8
 
 [application]
 
-config/name="godot-playfab"
+config/name="godot-playfab Main Example"
 run/main_scene="res://Scenes/Main.tscn"
-config/features=PackedStringArray("4.2")
+config/features=PackedStringArray("4.3")
 boot_splash/image="res://raw_assets/SplashScreen.png"
 config/icon="res://addons/godot-playfab/icon.png"
 
@@ -35,7 +35,7 @@ PlayFabManager="*res://addons/godot-playfab/PlayFabManager.gd"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot-playfab/plugin.cfg", "res://addons/gdUnit4/plugin.cfg")
+enabled=PackedStringArray("res://addons/godot-playfab/plugin.cfg")
 
 [filesystem]
 
